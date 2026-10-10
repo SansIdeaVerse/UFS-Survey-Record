@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <!-- Full-bleed background for maskable safe zone -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- Centered content within the 80% safe zone (40px padding all around) -->
+  <g transform="translate(176 136)">
+    <rect x="0" y="0" width="160" height="200" rx="16" fill="#ffffff" opacity="0.96"/>
+    <rect x="42" y="-16" width="76" height="38" rx="19" fill="#0f766e"/>
+    <rect x="42" y="-16" width="76" height="28" rx="14" fill="#ffffff" opacity="0.95"/>
+    <rect x="20" y="48" width="120" height="10" rx="5" fill="#cbd5e1"/>
+    <rect x="20" y="72" width="120" height="10" rx="5" fill="#cbd5e1"/>
+    <rect x="20" y="96" width="80" height="10" rx="5" fill="#cbd5e1"/>
+    <!-- Location pin -->
+    <g transform="translate(108 130)">
+      <path d="M28 0C12.54 0 0 12.54 0 28c0 21 28 55 28 55s28-34 28-55C56 12.54 43.46 0 28 0z" fill="#ffffff"/>
+      <circle cx="28" cy="28" r="11" fill="#0f766e"/>
+    </g>
+  </g>
+</svg>
